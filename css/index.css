@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: white;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  -webkit-box-shadow: 30px 0 40px rgba(0, 0, 0, 0.4), -30px 0 40px rgba(0, 0, 0, 0.4);
+          box-shadow: 30px 0 40px rgba(0, 0, 0, 0.4), -30px 0 40px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#landing {
+  background-color: white;
+}
+
+#landing #landing-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40vw;
+          flex: 0 1 40vw;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing #landing-text h2 {
+  color: #888;
+}
+
+#landing .btn {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #333;
+  -webkit-transition: background 50ms ease;
+  transition: background 50ms ease;
+}
+
+#landing .btn:hover {
+  background: #f4f4f4;
+}
+
+#landing-image {
+  background: url(https://source.unsplash.com/De8wMYoSSBc);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 60vw;
+          flex: 0 1 60vw;
+  margin: 0;
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#header h2 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  #landing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  #landing #landing-text {
+    height: 100vh;
+  }
+  #landing #landing-image {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 700px) {
+  .btn {
+    padding: 1 rem 3rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
